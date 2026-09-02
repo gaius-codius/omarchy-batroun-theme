@@ -1,0 +1,36 @@
+# Batroun — from the Levantine Sunset collection.
+# ember and gold on a soft indigo base.
+mode = "dark"
+
+accent = "#E4744A"
+selection = "#35314B"
+muted = "#373649"
+
+background = "#11131B"
+dark_background = "#0E1018"
+darker_background = "#0B0D14"
+lighter_background = "#191A27"
+
+foreground = "#EDE3D6"
+dark_foreground = "#6E6478"
+light_foreground = "#C9BFB4"
+bright_foreground = "#FFF8EE"
+
+hyprland_active_border = "rgba(e4744aee) rgba(e8b25cee) 45deg"
+hyprland_inactive_border = "rgba(373649aa)"
+
+red = "#E4744A"
+yellow = "#E8B25C"
+orange = "#EF8F52"
+green = "#A8B36A"
+cyan = "#5CB6A8"
+blue = "#6F93E0"
+magenta = "#D98BA6"
+brown = "#6E4A3C"
+
+bright_red = "#F08A5F"
+bright_yellow = "#F3C273"
+bright_green = "#BAC57C"
+bright_cyan = "#71C9BB"
+bright_blue = "#89A9EE"
+bright_magenta = "#E8A0B9"

@@ -35,6 +35,10 @@ share every accent, and both places at a depth share the same luminance on every
 
 ## Wallpapers
 
+![Batroun wallpapers](wallpapers.jpg)
+
+Left to right, top to bottom, in the order listed below.
+
 | file | |
 |---|---|
 | `1-colonnade` | pointed arches cut from a dark wall, evening beyond |

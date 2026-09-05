@@ -50,9 +50,43 @@ All four are generated procedurally from this theme's own hex values — there a
 source photographs. Cycle them with `omarchy theme bg next`, or drop your own into
 `~/.config/omarchy/backgrounds/batroun/`.
 
-`unlock.png` is the **Plymouth boot logo**, not a lock screen: a pointed arcade with
-a quiet lowercase `omarchy` beneath it. The same arcade is the subject of
-`1-colonnade`.
+
+## Boot and login screen
+
+![Batroun boot and login screen](preview-unlock.png)
+
+Omarchy styles the Plymouth boot splash and the SDDM login screen together, from
+this theme's `background`, `foreground` and `unlock.png`. Applying it is a
+**separate, one-time, root operation** — `omarchy theme set` does not touch either
+screen, so installing this theme leaves whatever greeter you already had:
+
+```sh
+omarchy plymouth set by theme batroun
+```
+
+The argument is the directory slug — the name `omarchy plymouth list` prints — not the
+display name. It needs root and rebuilds the initramfs, so give it a minute. To see what is
+currently applied (it prints the same slug), or to go back to the stock Omarchy screen:
+
+```sh
+omarchy plymouth current
+omarchy plymouth reset
+```
+
+`unlock.png` is the boot **logo mark** — a pointed arcade with a quiet lowercase
+`omarchy` beneath it, the same arcade that is the subject of `1-colonnade`. It is not
+a wallpaper and not the Hyprland lock screen, which uses your current background
+instead. `preview-unlock.png` is the composed 1920x1080 render above, and is what
+`omarchy plymouth switcher` shows in its picker.
+
+To render that preview yourself without applying anything:
+
+```sh
+omarchy plymouth preview '#11131B' '#EDE3D6' unlock.png /tmp/preview.png
+```
+
+Note it opens the result fullscreen in `imv` when it finishes; close it to get your
+prompt back.
 
 ## The rest of the collection
 
